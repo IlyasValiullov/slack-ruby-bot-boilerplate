@@ -1,0 +1,5 @@
+require_relative 'commands/base'
+require_relative 'commands/about'
+require_relative 'commands/help'
+require_relative 'commands/hi'
+require_relative 'commands/unknown'

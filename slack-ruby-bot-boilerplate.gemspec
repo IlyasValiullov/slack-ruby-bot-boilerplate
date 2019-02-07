@@ -2,7 +2,7 @@ $LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'slack_respondent/version'
 
 Gem::Specification.new do |s|
-  s.name = 'slack-ruby-bot'
+  s.name = 'slack-ruby-bot-boilerplate'
   s.version = SlackRespondent::VERSION
   s.authors = ['Ilyas Valiullov']
   s.email = 'ilyas.valiullov@gmail.com'

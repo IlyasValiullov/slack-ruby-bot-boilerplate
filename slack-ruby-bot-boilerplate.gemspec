@@ -13,9 +13,9 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
   s.homepage = 'https://github.com/IlyasValiullov/slack-ruby-bot-boilerplate'
   s.licenses = ['MIT']
-  s.summary = 'The easiest way to write a Slack bot in Ruby.'
+  s.summary = 'Slack bot boilerplate for response on different events.'
   s.add_dependency 'hashie'
-  s.add_dependency 'slack-ruby-client', '0.13.2'
+  s.add_dependency 'slack-ruby-client'
   s.add_development_dependency 'rack-test'
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'

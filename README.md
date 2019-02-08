@@ -31,7 +31,7 @@ require 'pong_command'
 class PongBot 
   include SlackRespondent::Reactions
   
-  def initialize(
+  def initialize
     on("app_mention", PongCommand)
   end
 

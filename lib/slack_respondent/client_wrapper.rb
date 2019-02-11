@@ -1,7 +1,6 @@
 module SlackRespondent
   class ClientWrapper
     include Loggable
-    include Singleton
 
     attr_accessor :aliases
     attr_accessor :names
@@ -56,7 +55,7 @@ module SlackRespondent
     private
 
     def client
-      @client ||= Slack::Web::Client.new
+      @client ||= ClientProvider.client.new
     end
   end
 end

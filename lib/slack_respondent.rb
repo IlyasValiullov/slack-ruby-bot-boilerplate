@@ -6,6 +6,7 @@ require_relative 'slack_respondent/support/loggable'
 require_relative 'slack_respondent/commands'
 require_relative 'slack_respondent/reactions'
 require_relative 'slack_respondent/client_wrapper'
+require_relative 'slack_respondent/client_provider'
 require_relative 'slack_respondent/config'
 
 module SlackRespondent

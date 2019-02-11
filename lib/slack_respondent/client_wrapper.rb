@@ -1,8 +1,9 @@
 module SlackRespondent
   class ClientWrapper
     include Loggable
+    include Singleton
+
     attr_accessor :aliases
-    attr_accessor :send_gifs
     attr_accessor :names
     attr_reader :client
 
